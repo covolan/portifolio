@@ -12,7 +12,7 @@ const Projects = ({ info, lang }) => {
               <h4 className="prj-title">{proj.title}</h4>
               <img src={proj.image} className="prj-image" alt="" />
               <p className="prj-description">{proj.description}</p>
-              <ul className="prj-list">
+              <ul className="prj-list-tech">
                 {proj.tools.map((item) => {
                   return(
 
@@ -22,7 +22,7 @@ const Projects = ({ info, lang }) => {
                   )
                 })}
               </ul>
-              <ul className="prj-list">
+              <ul className="prj-list-links">
                 <li className="prj-link">
                   <a href={proj.links[0]} target="_blank">
                     <i className="fa-brands fa-github"></i>

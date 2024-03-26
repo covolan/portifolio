@@ -43,6 +43,17 @@
         "links": [
           "https://github.com/covolan/job-listing", "https://covolan.github.io/job-listing/"
         ]
+      },
+      {
+        "title": "Projects portifolio",
+        "description": "This project aims to host and organize a series of other projects developed for the Frontend Mentor website. Additionally, it aims to showcase a bit about me and my work.",
+        "image": "/portifolio/images/projects-portifolio.png",
+        "tools": [
+          "HTML", "Sass", "CSS", "React.js", "Javascript"
+        ],
+        "links": [
+           "https://github.com/covolan/Projects-portifolio", "https://covolan.github.io/Projects-portifolio/"
+        ]
       }
     ]
   },
@@ -70,6 +81,17 @@
         ],
         "links": [
           "https://github.com/covolan/job-listing", "https://covolan.github.io/job-listing/"
+        ]
+      },
+      {
+        "title": "Portifólio de projetos",
+        "description": "Este projeto tem como objetivo hospedar e organizar uma série de outros projetos desenvolvidos para o site Frontend Mentor. Além disso, ele visa apresentar um pouco sobre mim e sobre o meu trabalho.",
+        "image": "/portifolio/images/projects-portifolio.png",
+        "tools": [
+          "HTML", "Sass", "CSS", "React.js", "Javascript"
+        ],
+        "links": [
+           "https://github.com/covolan/Projects-portifolio", "https://covolan.github.io/Projects-portifolio/"
         ]
       }
     ]
