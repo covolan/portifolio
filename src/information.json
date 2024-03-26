@@ -36,7 +36,7 @@
       {
         "title": "Static Job Listing",
         "description": "The aim of this project is to develop a job listing platform using a JSON file containing information about each available position. Jobs will be arranged in order of ID and can be filtered using a filter button, allowing selection by occupation, tools, or specific languages. The filter will be flexible, providing various selection options, and will include a button to clear applied filters.",
-        "image": "/images/static-job.jpeg",
+        "image": "/portifolio/images/static-job.jpeg",
         "tools": [
           "React.js", "Sass", "Javascript"
         ],
@@ -64,7 +64,7 @@
       {
         "title": "Lista estática de empregos",
         "description": "O objetivo deste projeto é desenvolver uma plataforma de listagem de empregos utilizando um arquivo JSON que contém informações sobre cada vaga disponível. As vagas serão organizadas em ordem de ID e poderão ser filtradas utilizando um botão de filtro, permitindo a seleção por ocupação, ferramentas ou linguagens específicas. O filtro será flexível, oferecendo diversas opções de seleção, e incluirá um botão para limpar os filtros aplicados.",
-        "image": "/images/static-job.jpeg",
+        "image": "/portifolio/images/static-job.jpeg",
         "tools": [
           "React.js", "Sass", "Javascript"
         ],
