@@ -1,0 +1,11 @@
+"bar1BR": "Projects",
+  "bar2BR": "Skills",
+  "bar3BR": "Contact",
+  "langBR": "BR",
+  "salute1BR": "Hello, ",
+  "salute2BR": "I'm Alexandre Covolan.",
+  "occupationBR": "A Front End Developer.",
+  "descriptionBR": "I'm a frontend developer dedicated to creating intuitive and immersive digital experiences. I'm constantly refining my skills to deliver an excellent user experience. I'm passionate about discussing and collaborating on innovative projects and emerging technologies. My love for science and physics inspires my creative and analytical approach to problem-solving and crafting impactful solutions.",
+  "titleProjectsBR": "PROJECTS",
+  "titleSkillsBR": "SKILLS",
+  "titleContactBR": "CONTACT"

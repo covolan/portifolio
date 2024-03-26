@@ -1,0 +1,77 @@
+{
+  "current": "eng",
+  "skills" : {
+    "languages": ["JavaScript", "HTML", "CSS", "Python", "C++"],
+    "tools" : ["Sass", "Git", "Github", "React.js", "Tailwind", "Node.js", "PostgreSQL", "Docker"]
+  },
+  "contacts": [
+    {
+      "name": "Email",
+      "link": "covolan09@gmail.com"
+    },
+    {
+      "name": "Dev.to",
+      "link": "https://dev.to/covolan"
+    },
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/alexandre-covolan/"
+    }
+  ],
+  "eng": {
+    "bar1": "Projects",
+    "bar2": "Skills",
+    "bar3": "Contact",
+    "lang": "ENG",
+    "salute1": "Hello, ",
+    "salute2": "I'm Alexandre Covolan.",
+    "occupation": "A Front End Developer.",
+    "description": "I'm a frontend developer dedicated to creating intuitive and immersive digital experiences. I'm constantly refining my skills to deliver an excellent user experience. I'm passionate about discussing and collaborating on innovative projects and emerging technologies. My love for science and physics inspires my creative and analytical approach to problem-solving and crafting impactful solutions.",
+    "titleProjects": "PROJECTS",
+    "titleSkills": "SKILLS",
+    "titleSkillsLang": "Languages",
+    "titleSkillsTools": "Tools",
+    "titleContact": "CONTACT",
+    "projects": [
+      {
+        "title": "Static Job Listing",
+        "description": "The aim of this project is to develop a job listing platform using a JSON file containing information about each available position. Jobs will be arranged in order of ID and can be filtered using a filter button, allowing selection by occupation, tools, or specific languages. The filter will be flexible, providing various selection options, and will include a button to clear applied filters.",
+        "image": "/images/static-job.jpeg",
+        "tools": [
+          "React.js", "Sass", "Javascript"
+        ],
+        "links": [
+          "https://github.com/covolan/job-listing", "https://covolan.github.io/job-listing/"
+        ]
+      }
+    ]
+  },
+  "br": {
+    "bar1": "Projetos",
+    "bar2": "Habilidades",
+    "bar3": "Contato",
+    "lang": "BR",
+    "salute1": "Olá, ",
+    "salute2": "sou Alexandre Covolan.",
+    "occupation": "Um Desenvolvedor FrontEnd.",
+    "description": "Sou um desenvolvedor FrontEnd dedicado a criar experiências digitais intuitivas e imersivas. Estou continuamente aprimorando minhas habilidades para oferecer uma experiência de usuário exelente. Sou apaixonado por discutir e colaborar em projetos inovadores e tecnologias emergentes. Minha paixão pela ciência e física inspira minha abordagem criativa e analítica para resolver problemas e criar soluções impactantes.",
+    "titleProjects": "PROJETOS",
+    "titleSkills": "HABILIDADES",
+    "titleSkillsLang": "Linguagens",
+    "titleSkillsTools": "Ferramentas",
+    "titleContact": "CONTATO",
+    "projects": [
+      {
+        "title": "Lista estática de empregos",
+        "description": "O objetivo deste projeto é desenvolver uma plataforma de listagem de empregos utilizando um arquivo JSON que contém informações sobre cada vaga disponível. As vagas serão organizadas em ordem de ID e poderão ser filtradas utilizando um botão de filtro, permitindo a seleção por ocupação, ferramentas ou linguagens específicas. O filtro será flexível, oferecendo diversas opções de seleção, e incluirá um botão para limpar os filtros aplicados.",
+        "image": "/images/static-job.jpeg",
+        "tools": [
+          "React.js", "Sass", "Javascript"
+        ],
+        "links": [
+          "https://github.com/covolan/job-listing", "https://covolan.github.io/job-listing/"
+        ]
+      }
+    ]
+  }
+}
