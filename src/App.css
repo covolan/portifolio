@@ -8,6 +8,7 @@
     --light-background-inverted: #414643;
     --light-dropshadow: #b9b9b9c7;
     --background: white;
+    overflow-x: hidden;
 }
 
 .dark-theme {
@@ -28,7 +29,6 @@ body {
 main {
     font-family: "Poppins", sans-serif;
     max-width: 1200px;
-    width: 95%;
     margin: 0 auto;
     color: var(--light-text-gray);
 }
@@ -48,4 +48,8 @@ h3 {
 ul {
     list-style-type: none;
     display: flex;
+}
+
+@media screen and (max-width: 1300px) {
+    
 }

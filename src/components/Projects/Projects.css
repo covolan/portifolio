@@ -6,7 +6,9 @@
 }
 
 .projects-cards {
-    display: flex;
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     align-self: center;
     margin-top: 2em;
 }
@@ -67,5 +69,34 @@
     &:hover {
         color: var(--light-highlight1);
         border-bottom: var(--light-highlight1) solid;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .projects-cards {
+        display: grid;
+        grid-template-columns: 1fr;
+        align-self: center;
+        margin-top: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
+    .prj-image {
+        width: 100%;
+        height: auto;
+        margin: 1rem 0;
+    }
+    
+    .prj {
+        width: auto;
+        height: auto;
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    
+    .prj-description {
+        padding: 1rem;
     }
 }
