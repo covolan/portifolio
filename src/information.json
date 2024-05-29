@@ -1,8 +1,17 @@
 {
   "current": "eng",
-  "skills" : {
+  "skills": {
     "languages": ["JavaScript", "HTML", "CSS", "Python", "C++"],
-    "tools" : ["Sass", "Git", "Github", "React.js", "Tailwind", "Node.js", "PostgreSQL", "Docker"]
+    "tools": [
+      "Sass",
+      "Git",
+      "Github",
+      "React.js",
+      "Tailwind",
+      "Node.js",
+      "PostgreSQL",
+      "Docker"
+    ]
   },
   "contacts": [
     {
@@ -34,25 +43,33 @@
     "titleContact": "CONTACT",
     "projects": [
       {
+        "title": "Random Meal Generator",
+        "description": "This project aims to use an open source API to create a web application using the provided data. In this case, it is a random recipe selector from the API: https://www.themealdb.com/api.php.",
+        "image": "/portifolio/images/random-meal-generator-thumb.jpeg",
+        "tools": ["React.js", "Tailwind", "Javascript"],
+        "links": [
+          "https://github.com/covolan/random-meal-generator",
+          "https://covolan.github.io/random-meal-generator/"
+        ]
+      },
+      {
         "title": "Static Job Listing",
         "description": "The aim of this project is to develop a job listing platform using a JSON file containing information about each available position. Jobs will be arranged in order of ID and can be filtered using a filter button, allowing selection by occupation, tools, or specific languages. The filter will be flexible, providing various selection options, and will include a button to clear applied filters.",
         "image": "/portifolio/images/static-job.jpeg",
-        "tools": [
-          "React.js", "Sass", "Javascript"
-        ],
+        "tools": ["React.js", "Sass", "Javascript"],
         "links": [
-          "https://github.com/covolan/job-listing", "https://covolan.github.io/job-listing/"
+          "https://github.com/covolan/job-listing",
+          "https://covolan.github.io/job-listing/"
         ]
       },
       {
         "title": "Projects portifolio",
         "description": "This project aims to host and organize a series of other projects developed for the Frontend Mentor website. Additionally, it aims to showcase a bit about me and my work.",
         "image": "/portifolio/images/projects-portifolio.png",
-        "tools": [
-          "HTML", "Sass", "CSS", "React.js", "Javascript"
-        ],
+        "tools": ["HTML", "Sass", "CSS", "React.js", "Javascript"],
         "links": [
-           "https://github.com/covolan/Projects-portifolio", "https://covolan.github.io/Projects-portifolio/"
+          "https://github.com/covolan/Projects-portifolio",
+          "https://covolan.github.io/Projects-portifolio/"
         ]
       }
     ]
@@ -73,25 +90,33 @@
     "titleContact": "CONTATO",
     "projects": [
       {
+        "title": "Gerador de Receitas",
+        "description": "Este projeto tem o intuito de utilizar uma API open source para criar uma aplicação web, usando os dados fornecidos. Neste caso, trata-se de um seletor aleatório de receitas a partir da API: https://www.themealdb.com/api.php.",
+        "image": "/portifolio/images/random-meal-generator-thumb.jpeg",
+        "tools": ["React.js", "Tailwind", "Javascript"],
+        "links": [
+          "https://github.com/covolan/random-meal-generator",
+          "https://covolan.github.io/random-meal-generator/"
+        ]
+      },
+      {
         "title": "Lista estática de empregos",
         "description": "O objetivo deste projeto é desenvolver uma plataforma de listagem de empregos utilizando um arquivo JSON que contém informações sobre cada vaga disponível. As vagas serão organizadas em ordem de ID e poderão ser filtradas utilizando um botão de filtro, permitindo a seleção por ocupação, ferramentas ou linguagens específicas. O filtro será flexível, oferecendo diversas opções de seleção, e incluirá um botão para limpar os filtros aplicados.",
         "image": "/portifolio/images/static-job.jpeg",
-        "tools": [
-          "React.js", "Sass", "Javascript"
-        ],
+        "tools": ["React.js", "Sass", "Javascript"],
         "links": [
-          "https://github.com/covolan/job-listing", "https://covolan.github.io/job-listing/"
+          "https://github.com/covolan/job-listing",
+          "https://covolan.github.io/job-listing/"
         ]
       },
       {
         "title": "Portifólio de projetos",
         "description": "Este projeto tem como objetivo hospedar e organizar uma série de outros projetos desenvolvidos para o site Frontend Mentor. Além disso, ele visa apresentar um pouco sobre mim e sobre o meu trabalho.",
         "image": "/portifolio/images/projects-portifolio.png",
-        "tools": [
-          "HTML", "Sass", "CSS", "React.js", "Javascript"
-        ],
+        "tools": ["HTML", "Sass", "CSS", "React.js", "Javascript"],
         "links": [
-           "https://github.com/covolan/Projects-portifolio", "https://covolan.github.io/Projects-portifolio/"
+          "https://github.com/covolan/Projects-portifolio",
+          "https://covolan.github.io/Projects-portifolio/"
         ]
       }
     ]
