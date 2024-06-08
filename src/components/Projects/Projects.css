@@ -6,7 +6,6 @@
 }
 
 .projects-cards {
-    /* display: flex; */
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-self: center;
@@ -64,7 +63,7 @@
     font-size: 1.4rem;
     cursor: pointer;
     border-bottom: transparent solid;
-    transition: 0.4s ease;
+    transition: color 0.4s ease, border 0.4s ease;
 
     &:hover {
         color: var(--light-highlight1);

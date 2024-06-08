@@ -42,7 +42,7 @@
     margin: 0.5rem;
     cursor: pointer;
     border-bottom: transparent solid;
-    transition: 0.4s ease;
+    transition: color 0.4s ease, border 0.4s ease;
 
     &:hover {
         color: var(--light-highlight1);

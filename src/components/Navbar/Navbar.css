@@ -19,7 +19,7 @@ a {
     color: var(--light-text-gray);
     cursor: pointer;
     border-bottom: transparent solid;
-    transition: 0.4s ease;
+    transition: color 0.4s ease, border 0.4s ease;
 
     &:hover {
         border-bottom: var(--light-highlight1) solid;
@@ -40,7 +40,7 @@ a {
     color: var(--light-navtitle);
     font-weight: 800;
     border-bottom: transparent solid;
-    transition: 0.4s ease;
+    transition: color 0.4 ease, border 0.4s ease;
 
     &:hover {
         border-bottom: var(--light-navtitle) solid;
