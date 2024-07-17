@@ -13,7 +13,7 @@ const App = () => {
 
   const changeLang = () => {
     currentLang == "eng" ? setCurrentLang("br") : setCurrentLang("eng");
-  }
+  };
 
   return (
     <div>

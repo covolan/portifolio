@@ -1,101 +1,104 @@
 .projects {
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    color: var(--light-text-gray);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  color: var(--light-text-gray);
 }
 
 .projects-cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-self: center;
-    margin-top: 2em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-self: center;
+  margin-top: 2em;
 }
 
 .prj-image {
-    width: 450px;
-    height: 250px;
-    margin: 1.2rem 0;
-    border: 1px solid var(--light-highlight1);
-    border-radius: 0.5rem;
+  width: 100%;
+  box-shadow: 0px 0px 10px 0px var(--light-dropshadow);
+  margin: 1.2rem 0;
 }
 
 .prj {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    box-shadow: 0px 3px 5px var(--light-dropshadow);
-    background-color: var(--light-background);
-    width: 560px;
-    height: 700px;
-    padding: 1rem;
-    margin: 1rem;
-    transition: 0.4s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 8px var(--light-dropshadow);
+  background-color: var(--light-background);
+  width: 460px;
+  padding: 1.5rem;
+  margin: 1rem;
+  transition: 0.4s ease;
 
-    &:hover {
-        box-shadow: 0px 3px 7px var(--light-highlight1);
-    }
+  &:hover {
+    box-shadow: 0px 0px 8px var(--light-highlight1);
+  }
 }
 
 .prj-title {
-    font-size: 1.5em;
-    color: var(--light-highlight1);
+  font-size: 1.5em;
+  color: var(--light-highlight1);
 }
 
 .prj-description {
-    padding: 1rem 2rem;
-    margin: auto;
+  padding: 1rem 0rem;
+  margin: auto;
+  text-indent: 2rem;
+  text-align: justify;
 }
 
 .prj-tech {
-    color: var(--light-navtitle);
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin: 0.8em;
-}
-
-.prj-list-tech {
-    margin: auto 0 0 0;
+  color: var(--light-navtitle);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0.8em;
 }
 
 .prj-link {
-    margin: 0.3rem 0.5rem 0 0.5rem;
-    font-size: 1.4rem;
-    cursor: pointer;
-    border-bottom: transparent solid;
-    transition: color 0.4s ease, border 0.4s ease;
+  margin: 1rem 0.5rem 0 0.5rem;
+  font-size: 1.4rem;
+  cursor: pointer;
+  border-bottom: transparent solid;
+  transition: color 0.4s ease, border 0.4s ease;
 
-    &:hover {
-        color: var(--light-highlight1);
-        border-bottom: var(--light-highlight1) solid;
-    }
+  &:hover {
+    color: var(--light-highlight1);
+    border-bottom: var(--light-highlight1) solid;
+  }
 }
 
-@media screen and (max-width: 1300px) {
-    .projects-cards {
-        display: grid;
-        grid-template-columns: 1fr;
-        align-self: center;
-        margin-top: 2em;
-    }
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.prj-hr {
+  border-top: 1px solid var(--light-highlight1);
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .projects-cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-self: center;
+    margin-top: 2em;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    
-    .prj-image {
-        width: 100%;
-        height: auto;
-        margin: 1rem 0;
-    }
-    
-    .prj {
-        width: auto;
-        height: auto;
-        padding: 1rem;
-        margin-bottom: 1rem;
-    }
-    
-    .prj-description {
-        padding: 1rem;
-    }
+  .prj-image {
+    width: 100%;
+    height: auto;
+    margin: 1rem 0;
+  }
+
+  .prj {
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .prj-description {
+    padding: 1rem;
+  }
 }

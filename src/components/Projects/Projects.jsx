@@ -1,5 +1,7 @@
 import React from "react";
 import "./Projects.css";
+import * as Tooltip from "@radix-ui/react-tooltip";
+import ToolTip from "../ToolTip/ToolTip";
 
 const Projects = ({ info, lang }) => {
   return (
@@ -12,25 +14,36 @@ const Projects = ({ info, lang }) => {
               <h4 className="prj-title">{proj.title}</h4>
               <img src={proj.image} className="prj-image" alt="" />
               <p className="prj-description">{proj.description}</p>
+              <hr className="prj-hr" />
               <ul className="prj-list-tech">
                 {proj.tools.map((item) => {
-                  return(
-
-                  <li key={item} className="prj-tech">
-                    {item}
-                  </li>
-                  )
+                  return (
+                    <li key={item} className="prj-tech">
+                      {item}
+                    </li>
+                  );
                 })}
               </ul>
+              <hr className="prj-hr" />
               <ul className="prj-list-links">
                 <li className="prj-link">
                   <a href={proj.links[0]} target="_blank">
-                    <i className="fa-brands fa-github"></i>
+                    <ToolTip
+                      Children={
+                        <i className="fa-brands fa-github cursor-pointer"></i>
+                      }
+                      Content={"Github"}
+                    />
                   </a>
                 </li>
                 <li className="prj-link">
                   <a href={proj.links[1]} target="_blank">
-                    <i className="fa-solid fa-arrow-right-from-bracket"></i>
+                    <ToolTip
+                      Children={
+                        <i className="fa-solid fa-arrow-right-from-bracket cursor-pointer"></i>
+                      }
+                      Content={"Link"}
+                    />
                   </a>
                 </li>
               </ul>

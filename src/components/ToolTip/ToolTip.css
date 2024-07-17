@@ -1,0 +1,13 @@
+.TooltipContent {
+  /* border-radius: 4px; */
+  padding: 8px 15px;
+  font-size: 15px;
+  line-height: 1;
+  color: var(--light-text-gray);
+  background-color: var(--light-background);
+  box-shadow: 0px 0px 5px 0px var(--light-highlight1);
+}
+.TooltipArrow {
+  fill: var(--light-highlight1);
+  background-color: transparent;
+}

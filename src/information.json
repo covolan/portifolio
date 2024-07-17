@@ -1,15 +1,15 @@
 {
   "current": "eng",
   "skills": {
-    "languages": ["JavaScript", "HTML", "CSS", "Python", "C++"],
+    "languages": ["JavaScript ES6+", "HTML 5", "CSS 3", "Python", "C++"],
     "tools": [
-      "Sass",
-      "Git",
-      "Github",
       "React.js",
+      "Vite",
+      "Material-UI",
       "Tailwind",
+      "Git & Github",
+      "Sass",
       "Node.js",
-      "PostgreSQL",
       "Docker"
     ]
   },

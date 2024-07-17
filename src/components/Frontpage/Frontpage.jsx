@@ -1,6 +1,8 @@
 import React from "react";
 import "./Frontpage.css";
 import picture from "/picture.jpeg";
+import * as Tooltip from "@radix-ui/react-tooltip";
+import ToolTip from "../ToolTip/ToolTip";
 
 const Frontpage = ({ info, lang }) => {
   return (
@@ -23,7 +25,12 @@ const Frontpage = ({ info, lang }) => {
           </li>
           <li className="frontpage-item">
             <a href="https://github.com/covolan" target="_blank">
-              <i className="fa-brands fa-github"></i>
+              <ToolTip
+                Content={"Github"}
+                Children={
+                  <i className="fa-brands fa-github cursor-pointer"></i>
+                }
+              ></ToolTip>
             </a>
           </li>
           <li className="frontpage-item">
@@ -31,7 +38,12 @@ const Frontpage = ({ info, lang }) => {
               href="https://www.linkedin.com/in/alexandre-covolan/"
               target="_blank"
             >
-              <i className="fa-brands fa-linkedin"></i>
+              <ToolTip
+                Content={"LinkedIn"}
+                Children={
+                  <i className="fa-brands fa-linkedin cursor-pointer"></i>
+                }
+              />
             </a>
           </li>
         </ul>
