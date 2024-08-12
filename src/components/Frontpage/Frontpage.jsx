@@ -1,7 +1,5 @@
-import React from "react";
 import "./Frontpage.css";
 import picture from "/picture.jpeg";
-import * as Tooltip from "@radix-ui/react-tooltip";
 import ToolTip from "../ToolTip/ToolTip";
 
 const Frontpage = ({ info, lang }) => {
@@ -20,9 +18,6 @@ const Frontpage = ({ info, lang }) => {
       <p className="frontpage-description">{info[lang].description}</p>
       <div className="frontpage-links">
         <ul className="frontpage-list">
-          <li className="frontpage-item">
-            <i className="fa-regular fa-file-lines"></i>
-          </li>
           <li className="frontpage-item">
             <a href="https://github.com/covolan" target="_blank">
               <ToolTip
