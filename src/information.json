@@ -45,6 +45,16 @@
     "titleContact": "CONTACT",
     "projects": [
       {
+        "title": "E-commerce website",
+        "description": "This page uses the React.js library to create a responsive, multi-page website. By utilizing modules such as 'React Router' and 'Material-UI,' it offers an immersive experience. Features include: a shopping cart, login using local storage, comment system, custom product pages, personalized banners, a full footer, and an item filtering system.",
+        "image": "/portifolio/images/e-commerce.jpg",
+        "tools": ["React.js", "Material-UI", "Javascript", "HTML 5"],
+        "links": [
+          "https://github.com/covolan/e-commerce",
+          "https://covolan.github.io/e-commerce"
+        ]
+      },
+      {
         "title": "Random Meal Generator",
         "description": "This project aims to use an open source API to create a web application using the provided data. In this case, it is a random recipe selector from the API: https://www.themealdb.com/api.php.",
         "image": "/portifolio/images/random-meal-generator-thumb.jpeg",
@@ -91,6 +101,16 @@
     "titleSkillsTools": "Ferramentas",
     "titleContact": "CONTATO",
     "projects": [
+      {
+        "title": "E-commerce website",
+        "description": "Esta página utiliza a biblioteca React.js para criar um site responsivo e multipáginas. Com o uso de módulos como 'React Router' e 'Material-UI', proporciona uma experiência imersiva. Entre os recursos estão: carrinho de compras, login utilizando local storage, sistema de comentários, página personalizada para produtos, banners personalizados, rodapé completo e sistema de filtragem de itens.",
+        "image": "/portifolio/images/e-commerce.jpg",
+        "tools": ["React.js", "Material-UI", "Javascript", "HTML 5"],
+        "links": [
+          "https://github.com/covolan/e-commerce",
+          "https://covolan.github.io/e-commerce"
+        ]
+      },
       {
         "title": "Gerador de Receitas",
         "description": "Este projeto tem o intuito de utilizar uma API open source para criar uma aplicação web, usando os dados fornecidos. Neste caso, trata-se de um seletor aleatório de receitas a partir da API: https://www.themealdb.com/api.php.",
